@@ -125,7 +125,7 @@
 
 ;;; company-mode
 (global-company-mode t)
-(global-set-key (kbd "TAB") 'company-complete)
+(global-set-key (kbd "C-c") 'company-complete)
 (setq-default
  company-idle-delay nil
  company-minimum-prefix-length 2
@@ -140,5 +140,6 @@
 ;; *****************************************
 
 ;; sr-speedbar
-(add-hook 'emacs-startup-hook (lambda ()
-                                (sr-speedbar-open)))
+(setq
+ sr-speedbar-width 30)
+(sr-speedbar-open)

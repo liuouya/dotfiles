@@ -17,7 +17,7 @@
  smex markdown-mode markdown-mode+ hgignore-mode move-text paredit
  rainbow-delimiters rainbow-mode json-mode json-reformat flycheck
  solarized-theme terraform-mode visual-regexp yasnippet yaml-mode
- zencoding-mode sr-speedbar))
+ zencoding-mode sr-speedbar nyan-mode))
 
 
 
@@ -143,3 +143,6 @@
 (setq
  sr-speedbar-width 30)
 (sr-speedbar-open)
+
+;; nyan cat mode :3
+(nyan-mode 1)

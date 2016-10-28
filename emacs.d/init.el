@@ -82,6 +82,10 @@
 ;;              Formatting
 ;; *****************************************
 
+;; no indent for open brace on new line
+(setq c-default-style "bsd"
+      c-basic-offset 4)
+
 ;; 4 spaces indentation no tabs
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 4)
